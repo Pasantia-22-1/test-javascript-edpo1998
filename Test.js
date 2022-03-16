@@ -3,7 +3,9 @@
 ? Intenta crear un comentario
 ================================================================================================================================================== */ 
 
+/* Este es un comentario multilinea */
 
+// Este es un comentario de linea
 
 
 
@@ -12,7 +14,7 @@
 ? Declara una variable'myName'
 ================================================================================================================================================== */ 
 
-
+  var myName;
 
 
 
@@ -21,7 +23,7 @@
 ?   Declara una variable 'a' y debajo asígnale el valor '7'
 ================================================================================================================================================== */ 
 
-
+  var a = 7;
 
 
 
@@ -32,7 +34,7 @@
 ?   Declara una variable 'b' y asígnale el contenido de 'a'
 ================================================================================================================================================== */ 
 
-
+  b = a;
 
 
 
@@ -44,7 +46,7 @@
 ?   Define una variable 'a' con 'var' e inicialízala con un valor de '9'
 ================================================================================================================================================== */
 
-
+  var a = 9
 
 
 
@@ -56,7 +58,11 @@
 ================================================================================================================================================== */ 
 // Cambia solo el código debajo de esta línea
 
-
+  var a=5,b=10,c="I am a";
+  console.log(a)
+  console.log(b)
+  console.log(c)
+  
 
 // Cambia solo el código encima de esta línea
 
@@ -76,13 +82,16 @@ c = c + " String!";
 ?   Asignale los valores '10', 'A String', '9000'
 ================================================================================================================================================== */ 
 // Declaración de variables
+   var studyCapVar,properAmelase,titleCaseOver;
 
 
 
 
 // Asignación de variables
 
-
+  studyCapVar = '10';
+  properAmelase='A String'
+  titleCaseOver= 9000; 
 
 
 
@@ -94,6 +103,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
+  sum = 5+5;
+  console.log(sum);
 
 
 
@@ -105,7 +116,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
+  var difference = 10-0.5
+  console.log(difference)
 
 
 
@@ -116,7 +128,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
+  product = 5*3.1416
+  console.log(product)
 
 
 
@@ -126,7 +139,8 @@ c = c + " String!";
 ?   Declara una variable 'quotient' e inicializala con una división de dos enteros
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+  quotiennt = 10/2
+  console.log(quotient)
 
 
 
@@ -140,7 +154,9 @@ c = c + " String!";
 ================================================================================================================================================== */ 
 
 
-
+  myVar = 87;
+  myVar++;
+  console.log(myVar); 
 
 
 
@@ -153,7 +169,9 @@ c = c + " String!";
 ================================================================================================================================================== */ 
 
 
-
+  myVar = 11;
+  myVar--;
+  console.log(myVar); 
 
 
 
@@ -164,6 +182,7 @@ c = c + " String!";
 ================================================================================================================================================== */ 
 
 
+  var myDecimal = 0.5
 
 
 
@@ -173,7 +192,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
+  var product = 2.5*2
+  console.log(product)
 
 
 
@@ -185,7 +205,9 @@ c = c + " String!";
 ================================================================================================================================================== */ 
 
 
-
+  var quotient;
+  quotient = 4.4/2
+  console.log(quotient)
 
 
 
@@ -194,6 +216,8 @@ c = c + " String!";
 ?   Crea una variable 'quotient' y luego has una operacion de resto cuyo resultado sea '2'
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
+
+  quotient = 4.2%2
 
 
 
@@ -210,9 +234,9 @@ var b = 17;
 var c = 12;
 
 // Cambia solo el código debajo de esta línea
-a = a + 12;
-b = b + 9;
-c = c + 7;
+a += 12;
+b += 9;
+c += 7;
 console.log(a)
 console.log(b)
 console.log(c)
@@ -230,9 +254,9 @@ var b = 9;
 var c = 3;
 
 // Cambia solo el código debajo de esta línea
-a = a - 6;
-b = b - 15;
-c = c - 1;
+a -= 6;
+b -= 15;
+c -= 1;
 console.log(a)
 console.log(b)
 console.log(c)
@@ -250,9 +274,9 @@ var b = 12;
 var c = 4.6;
 
 // Cambia solo el código debajo de esta línea
-a = a * 5;
-b = b * 3;
-c = c * 10;
+a *= 5;
+b *= 3;
+c *= 10;
 console.log(a)
 console.log(b)
 console.log(c)
@@ -270,9 +294,9 @@ var b = 108;
 var c = 33;
 
 // Cambia solo el código debajo de esta línea
-a = a / 12;
-b = b / 4;
-c = c / 11;
+a /= 12;
+b /= 4;
+c /= 11;
 console.log(a)
 console.log(b)
 console.log(c)
@@ -288,6 +312,9 @@ console.log(c)
 ================================================================================================================================================== */ 
 
 
+    var myFirstName ="Erick ",myLastName="Poron";
+    var myName = myFirstName + myLastName;
+    console.log(myName);
 
 
 
@@ -300,7 +327,8 @@ console.log(c)
 ?   I am a "double quoted" string inside "double quotes".
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-var myStr = ""
+    var myStr = "Im am a \"double quoted\" string inside \"double quoted\""
+    console.log(myStr)
 
 
 
@@ -311,7 +339,9 @@ var myStr = ""
 ?   Utiliza comillas simples para rodear tu string para no usar '\'
 ?   <a href="#" target="_blank">Link</a>
 ================================================================================================================================================== */ 
-var myStr = ""
+var myStr = '<a href="#" target="_blank">Link</a>'
+console.log(myStr)
+
 
 
 
@@ -322,7 +352,8 @@ var myStr = ""
 ?   usa el operador '+' para concatenar dos strings
 ?   utiliza console.log() para ver el resultado 
 ================================================================================================================================================== */ 
-var myStr = ""
+var myStr = "Hola" + " Mundo"
+console.log(myStr)
 
 
 
@@ -333,7 +364,9 @@ var myStr = ""
 ?   Construye la cadena anterior en dos líneas uitilizanco "+="
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+  var myStr = "+"
+  myStr+="="
+  console.log(myStr)
 
 
 
@@ -347,7 +380,9 @@ var myStr = ""
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
+  var myName = "Erick"
+  var otherVar = myName + " Poron"
+  console.log(otherVar)
 
 
 
@@ -360,8 +395,10 @@ var myStr = ""
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
- 
+  var aStr = ":"
+  var bStr = aStr + ")"
+  console.log(bStr)
+  
 
 
 
@@ -376,6 +413,10 @@ var myStr = ""
 ================================================================================================================================================== */ 
 
 
+  lastNameLength = 0
+  lastName = "Lovelace"
+  lastNameLength += lastName.length
+  console.log(lastNameLength)
 
 
 
@@ -391,7 +432,10 @@ var myStr = ""
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
+    firstLetterOfLastName = ""
+    lastName = "Lovelace"
+    firstLetterOfLastName = lastName[0]
+    console.log(firstLetterOfLastName)
 
 
 
@@ -406,9 +450,8 @@ var myStr = ""
 var myStr = "Jello World";
 // Cambia solo el código debajo de esta línea
 
-
-
-
+  myStr = "H" + myStr.slice(1,myStr.length) // Solo se puede reasignando el valor con sigo misma
+  console.log(myStr)
 
 /* ==================================================================================================================================================
 *   Utiliza la notación de corchetes 
@@ -417,6 +460,7 @@ var myStr = "Jello World";
 var lastName = "Lovelace";
 // Cambia solo el código debajo de esta línea
 
+thirdLetterOfLastName = lastName[2]
 
 
 
@@ -427,11 +471,11 @@ var lastName = "Lovelace";
 ?   Debes usar '.length' y no puedes usar numeros positivos 
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-var lastName = "Lovelace";
+  var lastName = "Lovelace";
 
 // Cambia solo el código debajo de esta línea
-var lastLetterOfLastName = ""
-
+  var lastLetterOfLastName = lastName[lastName.length-1]
+  console.log(lastLetterOfLastName)
 
 /* ==================================================================================================================================================
 *   Lista de compras
@@ -440,7 +484,7 @@ var lastLetterOfLastName = ""
 ?   El segundo elemento debe ser un número que represente la cantidad.
 ================================================================================================================================================== */ 
 
-  
+    myList = [ ["Teclado",10],["Mouse",100], ["Monitor",50], ["Impresora",1] ,["Cargador"],2]
    
 
     
@@ -456,7 +500,8 @@ var lastLetterOfLastName = ""
 ?   Llama a la función.
 ================================================================================================================================================== */ 
 
-
+  const reusableFunction = () => console.log("Hi World"); 
+  reusableFunction()
 
 
   
@@ -470,7 +515,8 @@ var lastLetterOfLastName = ""
 ?   Llama a la función con dos números como argumentos.
 ================================================================================================================================================== */ 
 
-
+  const functionWithArgs = (a,b) => console.log(a+b); 
+  functionWithArgs(5,5)
 
 
 
@@ -485,25 +531,26 @@ var lastLetterOfLastName = ""
 ================================================================================================================================================== */ 
 // Declara la variable myGlobal debajo de esta línea
 
+  var myGlobal = 10;
 
-function fun1() {
-    // Asigna 5 a oopsGlobal aquí
-    
-}
-// Cambia solo el código encima de esta línea  
+  function fun1() {
+      // Asigna 5 a oopsGlobal aquí
+      oopsGlobal = 5;
+  }
+  // Cambia solo el código encima de esta línea  
 
-function fun2() {
-    var output = "";
-    if (typeof myGlobal != "undefined") {
-      output += "myGlobal: " + myGlobal;
-    }
-    if (typeof oopsGlobal != "undefined") {
-      output += " oopsGlobal: " + oopsGlobal;
-    }
-    console.log(output);
-}
-fun1()
-fun2()
+  function fun2() {
+      var output = "";
+      if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+      }
+      if (typeof oopsGlobal != "undefined") {
+        output += " oopsGlobal: " + oopsGlobal;
+      }
+      console.log(output);
+  }
+  fun1()
+  fun2()
 
 
 
@@ -516,13 +563,12 @@ var outerWear = "T-Shirt";
 
 function myOutfit() {
   // Cambia solo el código debajo de esta línea
-
+  outerWear = "sweater"
  
   
   // Cambia solo el código encima de esta línea
   return outerWear;
 }
-
 myOutfit();
 
 
@@ -548,10 +594,12 @@ console.log(answer)
 ?  Crea una función 'addFive' sin ningún argumento. Esta función suma '5' a la variable 'sum', pero su valor devuelto es 'undefined'. 
 ?  llama a la funcion y utiliza console.log() para ver el valor devuelto 
 ================================================================================================================================================== */ 
-var sum = 0;
+var sum = 0;  
 // Cambia solo el código debajo de esta línea
 
-
+// Crep que sum no deberia estar inicializdada 
+const addFive = () => sum+=5
+console.log(addFive())
 
 
 
@@ -573,8 +621,8 @@ function processArg(num) {
 
 // Cambia solo el código debajo de esta línea
 
-
-
+processed = processArg(7)
+console.log(processed)
 
 
 
@@ -585,8 +633,13 @@ function processArg(num) {
 ?   Agrega el número al final del arreglo, luego elimina el primer elemento del arreglo.
 ?   La función 'nextInLine' debe entonces devolver el elemento que fue removido.
 ================================================================================================================================================== */ 
+var arr1 = [1,2,3,4,5]
+const nextInLine = (num) => {
+    arr1.append(num)
+    return arr1.shift()
+}
 
-
+console.log(nextInLine(6))
 
 
 // Cambia solo el código encima de esta línea
@@ -606,10 +659,10 @@ console.log("After: " + JSON.stringify(testArr));
 ================================================================================================================================================== */ 
 var myDog = {
     // Cambia solo el código debajo de esta línea
-     
-     
-     
-        
+     name :"",
+     legs:0,
+     tails:0,
+     friends:[]
     // Cambia solo el código encima de esta línea
 };
 
@@ -630,8 +683,8 @@ var testObj = {
   
 // Cambia solo el código debajo de esta línea
   
-var hatValue = testObj;      // Cambia esta línea
-var shirtValue = testObj;    // Cambia esta línea
+var hatValue = testObj.hat;      // Cambia esta línea
+var shirtValue = testObj.shirt;    // Cambia esta línea
 
 // console.log(hatValue)
 // console.log(shirtValue)
@@ -650,8 +703,8 @@ var testObj = {
   
 // Cambia solo el código debajo de esta línea
 
-var playerNumber;       // Cambia esta línea
-var player = testObj;   // Cambia esta línea
+var playerNumber = 16;       // Cambia esta línea
+var player = testObj[playerNumber];   // Cambia esta línea
 
 console.log(player)
 
@@ -663,7 +716,11 @@ console.log(player)
 ================================================================================================================================================== */
 function checkObj(obj, checkProp) {
     // Cambia solo el código debajo de esta línea
-    
+    if(obj[checkProp]){
+      return  console.log(obj[checkProp])
+    }else{
+      return console.log("No encontrado")
+    }
         
   
    
